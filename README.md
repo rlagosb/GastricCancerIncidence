@@ -29,19 +29,21 @@ Gastric cancer estimations for Chilean provinces.
 The analysis is divided into three modular Jupyter Notebooks. You can run these locally or open them directly in Google Colab.
 
 |Notebook | Description|
-|------|
+|:-|-|
 |`1_Participants_and_Trajectories.ipynb`|Analyzes the study population, filters participants, and visualizes clinical pathways (hospitalization vs. mortality).|
 |`2_Methods_Evaluation.ipynb` | Evaluates the performance of different estimation methods (IMR, IHR, IMHR) and the impact of covariates.|
-|`3_Analisis_Estimaciones_Chile.ipynb` | Generates the final incidence estimations for all 56 provinces, performs clustering, and conducts the socioeconomic trend analysis.|
+|`3_Analisis_Estimaciones_Chile.ipynb` | Generates the final incidence estimations for all 56 provinces, performs clustering, and conducts the trend analysis.|
 
 ## 🛠 Usage
 To reproduce the results:
 1. Clone this repository: `git clone https://github.com/your-username/GastricCancerIncidence.git`
 2. Run the notebooks in sequential order.
 
-## 📜 LicenseThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
+## 📜 License
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0).
 - Attribution: You must give appropriate credit and provide a link to the original study.
 - Non-Commercial: You may not use the material for commercial purposes.
 
 ## ✉️ Contact
-For questions regarding the methodology or data linkage, please open an issue in this repository or contact the lead author at rlagos@uchile.cl.
+For questions regarding the methodology or data linkage, please open an issue in this repository or contact rlagos@uchile.cl.
