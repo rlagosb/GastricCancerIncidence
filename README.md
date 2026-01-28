@@ -5,6 +5,7 @@ This repository contains the data and Python scripts required to reproduce the p
 We provide the processed datasets in `.parquet` format for high performance and compatibility with Python/Pandas.
 
 1. `CUBO_CANCER_DIGESTIVO.parquet`
+
 This is the primary aggregated multidimensional cube used for ratio calibration and incidence estimation.
 - Keys: Provincia, Año, Codigo, RangoEdad10 (10-year age groups).
 - Outcome Metrics: Casos (Registry cases), Egresos (Hospital discharges), Defunciones (Deaths), EgresosDefs (Combined unique events).
@@ -12,8 +13,13 @@ This is the primary aggregated multidimensional cube used for ratio calibration 
 - Dimensions: Provincial and Regional names, Macrorregion, Sexo, RangoEdad4080, MedianaRangoEdad (Age medians), and RPC (Population-Based Cancer Registry identificator).
 
 2. `EGRESOS_DEFUNCIONES_DESAGREGADOS.parquet`
+
 Disaggregated records used for patient trajectory and clinical pathway analysis.
 - Variables: idPersona (Anonymized pseudo-identifier), Sexo, Año, Edad, Provincia, Categoria, and Trayectoria (Event sequence).
+
+3. `Parametros_estimaciones.xlsx`
+
+Excel workbook with parameters used to run the analysis: evaluation scenarios, periods, IARC incidicence estimates, WHO population, etc.
 
 ## 🚀 Analysis Workflow
 The analysis is divided into three modular Jupyter Notebooks. You can run these locally or open them directly in Google Colab.
