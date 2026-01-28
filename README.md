@@ -21,6 +21,10 @@ Disaggregated records used for patient trajectory and clinical pathway analysis.
 
 Excel workbook with parameters used to run the analysis: evaluation scenarios, periods, IARC incidicence estimates, WHO population, etc.
 
+4. `Predicciones.parquet`
+
+Gastric cancer estimations for Chilean provinces.
+
 ## 🚀 Analysis Workflow
 The analysis is divided into three modular Jupyter Notebooks. You can run these locally or open them directly in Google Colab.
 
