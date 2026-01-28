@@ -36,8 +36,9 @@ The analysis is divided into three modular Jupyter Notebooks. You can run these 
 
 ## 🛠 Usage
 To reproduce the results:
-1. Clone this repository: `git clone https://github.com/your-username/GastricCancerIncidence.git`
-2. Run the notebooks in sequential order.
+1. Open the notebooks in Colab clicking 
+![Open in Colab](https://camo.githubusercontent.com/eff96fda6b2e0fff8cdf2978f89d61aa434bb98c00453ae23dd0aab8d1451633/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)
+2. Run the code cells in sequential order.
 
 ## 📜 License
 
