@@ -25,14 +25,19 @@ Excel workbook with parameters used to run the analysis: evaluation scenarios, p
 
 Gastric cancer estimations for Chilean provinces.
 
+5. `MAP_PROVINCIAS.parquet`
+
+Geospatial data file in Parquet format. It contains the geographical boundaries and associated attributes for the provinces of Chile. This file is primarily used for creating cartographic visualizations of incidence across provinces and macro-regions. It includes the division of Santiago province into six sub-provinces.
+
 ## 🚀 Analysis Workflow
 The analysis is divided into three modular Jupyter Notebooks. You can run these locally or open them directly in Google Colab.
 
 |Notebook | Description|
 |:-|-|
 |`1_Participants_and_Trajectories.ipynb`|Analyzes the study population, filters participants, and visualizes clinical pathways (hospitalization vs. mortality).|
-|`2_Methods_Evaluation.ipynb` | Evaluates the performance of different estimation methods (IMR, IHR, IMHR) and the impact of covariates.|
-|`3_Analisis_Estimaciones_Chile.ipynb` | Generates the final incidence estimations for all 56 provinces, performs clustering, and conducts the trend analysis.|
+|`2_Methods_Evaluation.ipynb` | Evaluates the performance of different estimation methods (IMR, IHR, IMHR) and the impact of covariates. Generates the incidence estimations for all provinces.|
+|`3_Analisis_Estimaciones_Chile.ipynb` | Reports the outcomes and incidence estimations for all provinces.|
+|`4_Incidence_analysis.ipynb` | Performs clustering of provinces, and conducts the trend analysis.|
 
 ## 🛠 Usage
 To reproduce the results:
